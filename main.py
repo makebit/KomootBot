@@ -28,7 +28,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 	"""Send a message when the command /start is issued."""
 	user = update.effective_user
 	logger.info("user: ", user)
-	await update.message.reply_text('Welcome to the Komoot bot! I can help'
+	await update.message.reply_text('Welcome to the Komoot bot! I can help you '
 	 'to download a Komoot tour as GPX. Send /help to know how I can help you')
 
 
